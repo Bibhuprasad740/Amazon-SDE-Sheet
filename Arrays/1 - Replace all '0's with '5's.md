@@ -3,19 +3,23 @@
 You are given an integer N. You need to convert all zeroes of N to 5.
 
 ##### Example 1:
-`Input:
+``` cpp
+Input:
 N = 1004
 Output: 1554
 Explanation: There are two zeroes in 1004
 on replacing all zeroes with "5", the new
-number will be "1554"`.
+number will be "1554".
+```
 
 ##### Example 2:
-`Input:
+``` cpp
+Input:
 N = 121
 Output: 121
 Explanation: Since there are no zeroes in
-"121", the number remains as "121".`.
+"121", the number remains as "121".
+```
 
 ##### Constraints: 1 <= n <= 10000
 
@@ -38,7 +42,7 @@ The easiest way is to convert the number into a string and iterate over every di
 
 ### Code(C++)
 
-``` 
+```cpp
 int convertFive(int n)
 {
     string num = to_string(n);
@@ -51,4 +55,8 @@ int convertFive(int n)
 }
 ```
 
-If you find this solution helpful, consider supporting us by giving a `⭐ star` to the [Amazon-SDE-Sheet](https://github.com/Bibhuprasad740/Amazon-SDE-Sheet) repository.
+- **If you find this solution helpful, consider supporting me by giving a `⭐ star` to the [Amazon-SDE-Sheet](https://github.com/Bibhuprasad740/Amazon-SDE-Sheet) repository.**
+
+ ```cpp
+ Made With ❤️ By Bibhu Prasad Sahoo
+ ``` 
