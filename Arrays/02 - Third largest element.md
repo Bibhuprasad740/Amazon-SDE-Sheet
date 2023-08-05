@@ -1,4 +1,6 @@
-## 02. Third largest element
+## 02. Third largest element 
+
+<span style="color: white; padding: 5px 20px; background-color: darkgreen; border-radius: 20px">Easy</span>
 
 Given an array of distinct elements. Find the third largest element in it.
 
@@ -29,7 +31,7 @@ Output: -1
 - Let's take three variables `largest`, `secondLargest` and `thirdLargest` to begin. 
 - As it is explicitly asked to return `-1` if we can't get a valid output, initialize all the three variables with `-1`. 
 - We iterate over every element of the array and check the following.
-- If the currentElement is greater than our `largest` , then it is clear that we will update our `largest` value, and if we have a bigger number than our `largest` , then the value present at `largest` , is now the second largest. so store the value at `largest` in `secondLargest`. 
+- If the currentElement is greater than our `largest` , then it is clear that we will update our `largest` value, and if we have a bigger number than our `largest` , then the value present at `largest` , is now the second largest. so store the value of `largest` in `secondLargest`. 
 - Similarly, when we change `secondLargest` , we must store the value at `secondLargest` in `thirdLargest`. 
 
 ##### Algorithm:

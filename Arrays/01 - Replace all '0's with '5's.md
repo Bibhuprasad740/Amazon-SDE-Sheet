@@ -1,5 +1,7 @@
 ## 01. Replace all 0s with 5s
 
+<span style="color: white; padding: 5px 20px; background-color: darkgreen; border-radius: 20px">Easy</span>
+
 You are given an integer N. You need to convert all zeroes of N to 5.
 
 ##### Example 1:
