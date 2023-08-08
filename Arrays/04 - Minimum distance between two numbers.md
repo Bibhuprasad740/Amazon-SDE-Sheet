@@ -1,4 +1,4 @@
-### 04. Minimum distance between two numbers 
+## 04. Minimum distance between two numbers 
 
 <span style="color: white; padding: 5px 20px; background-color: darkgreen; border-radius: 20px">Easy</span>
 
