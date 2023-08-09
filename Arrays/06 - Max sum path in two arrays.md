@@ -57,8 +57,8 @@ so the answer is 40 simple.
 **Case 2: There is a BreakPoint**
 - If we found a `breakPoint` then at that point of time we can decide which path we will take. Obviously the path which resulted more sum we will take that path. So we will keep cumulative sum of `arr1` and `arr2` in two variables `sum1` and `sum2` respectively. 
 - We will take two pointers `i` and `j` to point `arr1` and `arr2` respectively. 
-- At every point, we want to go one step closer to `case 1` so that we just decide which path to choose.
-- If `arr1[i]` > `arr2[j]` then, incrementing the `i` pointer will never result in `case 1` as `arr1[i]` is already greater than `arr2[j]` and the arrays are sorted in assending order. Incrementing `i` will result in an even bigger value of `arr1[i]`. Hence, increment `j` pointer so that may be next time we will find `arr1[i]` == `arr2[j]` and we can take the decission according to `case 1`. Before incrementing `j` add the value of `arr2[j]` in `sum2` to compare when we reach `breakPoint`
+- At every point, we want to go one step closer to a `breakPoint` so that we just decide which path to choose.
+- If `arr1[i]` > `arr2[j]` then, incrementing the `i` pointer will never lead to a `breakPoint` as `arr1[i]` is already greater than `arr2[j]` and the arrays are sorted in assending order. Incrementing `i` will result in an even bigger value of `arr1[i]`. Hence, increment `j` pointer so that may be next time we will find `arr1[i]` == `arr2[j]` and we can take the decission that which path to choose. Before incrementing `j` add the value of `arr2[j]` in `sum2` to compare when we reach `breakPoint`
 - Similarly, if `arr1[i]` < `arr2[j]` store the value of `arr1[i]` in `sum1` and increment the `i` pointer.
 
 
