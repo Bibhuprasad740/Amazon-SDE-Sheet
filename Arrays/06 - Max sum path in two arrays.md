@@ -1,4 +1,4 @@
-## 05. Max sum path in two arrays
+## 06. Max sum path in two arrays
 
 <span style="color: white; padding: 5px 20px; background-color: darkgreen; border-radius: 20px">Easy</span>
 
